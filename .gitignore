@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+/lib/
+
+# build output
+dist/
+contracts/out/
+contracts/cache/
+
+# secrets and local state: never commit
+.env
+.env.local
+.env.*.local
+.circle/
+recovery_file*
+*.pem
+
+# Arc Studio runtime logs
+traces.jsonl
+console.jsonl
+
+.DS_Store
+*.log
